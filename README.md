@@ -2,7 +2,7 @@
 
 Export UK planning applications from 400+ councils by keyword, council, or postcode radius: address, description, status, dates, coordinates and documents link. Powered by the PlanIt open API. Pay per result.
 
-**[Run it on Apify →](https://apify.com/devteamdrew/uk-planning-applications?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications)** (pay per result, free Apify account to start)
+**[Run it on Apify →](https://apify.com/devteamdrew/uk-planning-applications?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications&utm_content=hero)** (pay per result, free Apify account to start)
 
 
 **UK Planning Applications Scraper** by Moxie: fast, reliable and polite, built on official/public data sources.
@@ -29,7 +29,7 @@ PlanIt (planit.org.uk), an open aggregator of UK council planning portals. Publi
 
 ## Quick start
 
-1. Create a free account at [apify.com](https://apify.com/devteamdrew/uk-planning-applications?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications) and copy your API token.
+1. Create a free account at [apify.com](https://apify.com/devteamdrew/uk-planning-applications?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications&utm_content=quickstart) and copy your API token.
 2. `export APIFY_TOKEN=...`
 3. Run one of the examples:
 
@@ -50,23 +50,37 @@ Example input ([examples/input.json](examples/input.json)):
 }
 ```
 
+## FAQ
+
+**Which councils are covered?**
+Every council PlanIt covers (400+ UK planning authorities).
+
+**How fresh is the data?**
+PlanIt rescrapes councils daily; check `lastChanged`.
+
 ## Use with AI agents (MCP)
 
 Add `https://mcp.apify.com/?actors=devteamdrew/uk-planning-applications` as an MCP server in Claude, Cursor or any MCP client.
 
 ## Pricing
 
-See the [Apify Store page](https://apify.com/devteamdrew/uk-planning-applications?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications) for current pay-per-result pricing.
+See the [Apify Store page](https://apify.com/devteamdrew/uk-planning-applications?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications&utm_content=pricing) for current pay-per-result pricing.
+
+## Sample data
+
+Browse real sample rows, download a free CSV sample and see ready-made feeds at [rowsift.co.uk](https://rowsift.co.uk/feeds/uk-planning-applications/?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications&utm_content=sample-data).
 
 ## More data actors
 
-- [Bluesky Scraper & API – Posts, Profiles & Search](https://apify.com/devteamdrew/bluesky-scraper?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications)
-- [Companies House Scraper – UK Company Data, Directors & Filings](https://apify.com/devteamdrew/companies-house-scraper?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications)
-- [Hacker News Scraper – Stories, Comments & Who Is Hiring Jobs](https://apify.com/devteamdrew/hacker-news-scraper?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications)
-- [npm Scraper – Package Downloads, Dependencies & Maintainers](https://apify.com/devteamdrew/npm-package-scraper?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications)
-- [GitHub Trending Scraper – Repos, Stars & Developers](https://apify.com/devteamdrew/github-trending-scraper?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications)
-- [Mastodon Scraper – Fediverse Hashtags, Accounts & Trends](https://apify.com/devteamdrew/mastodon-scraper?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications)
-- [Lemmy Scraper – Posts, Comments & Communities (Fediverse)](https://apify.com/devteamdrew/lemmy-scraper?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications)
+- [Bluesky Scraper & API – Posts, Profiles & Search](https://apify.com/devteamdrew/bluesky-scraper?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications&utm_content=more)
+- [Companies House Scraper – UK Company Data, Directors & Filings](https://apify.com/devteamdrew/companies-house-scraper?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications&utm_content=more)
+- [Hacker News Scraper – Stories, Comments & Who Is Hiring Jobs](https://apify.com/devteamdrew/hacker-news-scraper?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications&utm_content=more)
+- [npm Scraper – Package Downloads, Dependencies & Maintainers](https://apify.com/devteamdrew/npm-package-scraper?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications&utm_content=more)
+- [GitHub Trending Scraper – Repos, Stars & Developers](https://apify.com/devteamdrew/github-trending-scraper?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications&utm_content=more)
+- [Mastodon Scraper – Fediverse Hashtags, Accounts & Trends](https://apify.com/devteamdrew/mastodon-scraper?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications&utm_content=more)
+- [Lemmy Scraper – Posts, Comments & Communities (Fediverse)](https://apify.com/devteamdrew/lemmy-scraper?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications&utm_content=more)
+- [SEC EDGAR Scraper – Filings Search, 10-K, 10-Q & 8-K](https://apify.com/devteamdrew/sec-edgar-scraper?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications&utm_content=more)
+- [arXiv Scraper – Papers, Abstracts & Authors Search](https://apify.com/devteamdrew/arxiv-scraper?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications&utm_content=more)
 
 ## License
 
