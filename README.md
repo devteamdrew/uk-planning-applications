@@ -68,7 +68,7 @@ See the [Apify Store page](https://apify.com/devteamdrew/uk-planning-application
 
 ## Sample data
 
-Browse real sample rows, download a free CSV sample and see ready-made feeds at [rowsift.co.uk](https://rowsift.co.uk/feeds/uk-planning-applications/?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications&utm_content=sample-data).
+Browse real sample rows, download a free CSV sample and see ready-made feeds at [rowsift.co.uk](https://rowsift.co.uk/planning-applications/?utm_source=github&utm_medium=readme&utm_campaign=uk-planning-applications&utm_content=sample-data).
 
 ## More data actors
 
